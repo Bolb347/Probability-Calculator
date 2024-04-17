@@ -1,6 +1,6 @@
 function factorial(x) {
-    for (let i = x - 1; i >= 1; i--) {
-        x = x * i;
+    for (var i = x - 1; i >= 1; i--) {
+        x *= i;
     }
     return x;
 }
