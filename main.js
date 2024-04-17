@@ -10,5 +10,5 @@ function combinations(trials, successes) {
 }
 
 function binomial_probability(trials, successes, probability) {
-    return combinations(trials, successes) * Math.pow(probability, successes) * Math.pow((1 - probability, trials - successes));
+    return combinations(trials, successes) * Math.pow(probability, successes) * Math.pow(1 - probability, trials - successes));
 }
