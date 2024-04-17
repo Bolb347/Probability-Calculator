@@ -1,4 +1,7 @@
 function factorial(x) {
+    if (x == 0) {
+        return 1;
+    }
     for (var i = x - 1; i >= 1; i--) {
         x *= i;
     }
